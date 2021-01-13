@@ -1,0 +1,27 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+CC	Makefile	/^CC = gcc$/;"	m
+CFLAGS	Makefile	/^CFLAGS = -Wall$/;"	m
+CLIBS	Makefile	/^CLIBS = -lncurses$/;"	m
+LIFE_H	src/life.h	/^#define LIFE_H$/;"	d
+MOD_DEC	src/life.h	/^#define MOD_DEC(/;"	d
+MOD_INC	src/life.h	/^#define MOD_INC(/;"	d
+PADDING	src/life.h	/^#define PADDING /;"	d
+build	Makefile	/^build: src\/main.c src\/life.c src\/life.h$/;"	t
+clean	Makefile	/^clean:$/;"	t
+delay	src/main.c	/^int delay;$/;"	v	typeref:typename:int
+gameGeneration	src/life.c	/^void gameGeneration(WINDOW *game_window, bool *matrix, int game_height, int game_width) \/\/{{{$/;"	f	typeref:typename:void
+gameLoad	src/main.c	/^void gameLoad() \/\/{{{$/;"	f	typeref:typename:void
+gameSetup	src/life.c	/^void gameSetup(WINDOW *game_window, bool *matrix, int game_height, int game_width) \/\/{{{$/;"	f	typeref:typename:void
+gameStart	src/main.c	/^void gameStart() \/\/{{{$/;"	f	typeref:typename:void
+install	Makefile	/^install: build$/;"	t
+main	src/main.c	/^int main() \/\/{{{$/;"	f	typeref:typename:int
+mainMenu	src/main.c	/^void mainMenu(int win_max[]) \/\/{{{$/;"	f	typeref:typename:void
+run	Makefile	/^run: build$/;"	t
+win_max	src/main.c	/^int win_max[2] = {0, 0};$/;"	v	typeref:typename:int[2]
