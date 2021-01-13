@@ -5,7 +5,7 @@
 #include "life.h"
 
 int win_max[2] = {0, 0};
-int delay = 1;
+int delay = 200000;
 
 int main() //{{{
 {

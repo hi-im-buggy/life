@@ -103,5 +103,5 @@ void gameGeneration(WINDOW *game_window, bool *matrix, int game_height, int game
 		}
 	}
 	wrefresh(game_window);
-	sleep(delay);
+	usleep(delay);
 } //}}}
